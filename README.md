@@ -19,11 +19,22 @@ HospitalApp/
 ├── HospitalApp.Infrastructure/  # Infrastructure katmanı (Data Access)
 │   └── Data/
 │       └── ApplicationDbContext.cs
-└── HospitalApp.WebAPI/         # Presentation katmanı (Controllers)
+└── HospitalApp.WebAPI/         # Presentation katmanı (Controllers, Services)
     ├── Controllers/
     │   ├── AuthController.cs
     │   └── PatientsController.cs
-    └── Program.cs
+    ├── Services/
+    │   └── JwtService.cs
+    ├── Migrations/
+    │   ├── InitialCreate.cs
+    │   ├── RemoveRoleFromUser.cs
+    │   └── ApplicationDbContextModelSnapshot.cs
+    ├── Properties/
+    │   └── launchSettings.json
+    ├── Program.cs
+    ├── appsettings.json
+    ├── appsettings.Development.json
+    └── HospitalApp.WebAPI.csproj
 ```
 
 ## 🚀 Teknolojiler
