@@ -6,7 +6,7 @@ using HospitalApp.WebAPI.Services;
 namespace HospitalApp.WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/auth")]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
@@ -92,6 +92,56 @@ namespace HospitalApp.WebAPI.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpGet("login")]
+        public async Task<ActionResult> GetLoginPage([FromQuery] string? username = null, [FromQuery] string? password = null)
+        {
+            // Eğer parametreler varsa giriş yap
+            if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
+            {
+                try
+                {
+                    var loginDto = new LoginDto
+                    {
+                        Username = username,
+                        Password = password
+                    };
+
+                    var result = await _authService.LoginAsync(loginDto);
+                    
+                    // Get user from database to generate token
+                    var dbUser = await _authService.GetUserByUsernameAsync(result.Username);
+                    var token = _jwtService.GenerateToken(dbUser);
+
+                    return Ok(new {
+                        success = true,
+                        message = $"Giriş başarılı! Hoş geldin {result.Username}!",
+                        loginTime = DateTime.Now,
+                        user = new {
+                            username = result.Username
+                        },
+                        token = token,
+                        nextSteps = new {
+                            patientsUrl = $"/api/patients?token={token}"
+                        }
+                    });
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest(new { 
+                        success = false,
+                        message = ex.Message,
+                        providedData = new { username }
+                    });
+                }
+            }
+
+            // Parametreler yoksa giriş sayfası bilgilerini göster
+            return Ok(new { 
+                message = "Giriş yapmak için username ve password parametrelerini ekleyin",
+                registerUrl = "/api/auth/register"
+            });
         }
 
         [HttpPost("login")]
