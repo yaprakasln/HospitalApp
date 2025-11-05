@@ -5,7 +5,7 @@ Bu proje, Clean Architecture prensiplerine uygun olarak geliştirilmiş bir hast
 ## 🏗️ Proje Yapısı
 
 ```
-HospitalAppClean/
+HospitalApp/
 ├── HospitalApp.Domain/          # Domain katmanı (Entities)
 │   └── Entities/
 │       ├── Patient.cs
@@ -65,7 +65,7 @@ HospitalAppClean/
 1. **Repository'yi klonlayın:**
 ```bash
 git clone https://github.com/yaprakasln/HospitalApp.git
-cd HospitalApp/HospitalAppClean
+cd HospitalApp
 ```
 
 2. **Veritabanı bağlantısını yapılandırın:**
