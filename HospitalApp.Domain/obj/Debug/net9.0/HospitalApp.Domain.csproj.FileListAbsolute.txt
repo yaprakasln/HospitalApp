@@ -1,0 +1,12 @@
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/bin/Debug/net9.0/HospitalApp.Domain.deps.json
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/bin/Debug/net9.0/HospitalApp.Domain.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/bin/Debug/net9.0/HospitalApp.Domain.pdb
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.AssemblyInfoInputs.cache
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.AssemblyInfo.cs
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.csproj.CoreCompileInputs.cache
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.sourcelink.json
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/refint/HospitalApp.Domain.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/HospitalApp.Domain.pdb
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Domain/obj/Debug/net9.0/ref/HospitalApp.Domain.dll

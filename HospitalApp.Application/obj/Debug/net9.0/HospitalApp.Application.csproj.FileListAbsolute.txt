@@ -1,0 +1,16 @@
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/bin/Debug/net9.0/HospitalApp.Application.deps.json
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/bin/Debug/net9.0/HospitalApp.Application.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/bin/Debug/net9.0/HospitalApp.Application.pdb
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/bin/Debug/net9.0/HospitalApp.Domain.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/bin/Debug/net9.0/HospitalApp.Domain.pdb
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.csproj.AssemblyReference.cache
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.AssemblyInfoInputs.cache
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.AssemblyInfo.cs
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.csproj.CoreCompileInputs.cache
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.sourcelink.json
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/Hospital.4630B05D.Up2Date
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/refint/HospitalApp.Application.dll
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/HospitalApp.Application.pdb
+/Users/yaprak/Desktop/HospitallApp/HospitalApp/HospitalAppClean/HospitalApp.Application/obj/Debug/net9.0/ref/HospitalApp.Application.dll

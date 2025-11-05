@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HospitalApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HospitalApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5588dd19d999df6c7a1eb331884a0a4a63a2e819")]
-[assembly: System.Reflection.AssemblyProductAttribute("HospitalApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HospitalApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("HospitalApp.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HospitalApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
