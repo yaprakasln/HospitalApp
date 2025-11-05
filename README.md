@@ -39,4 +39,3 @@ HospitalApp/
 
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
